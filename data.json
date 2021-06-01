@@ -3,12 +3,14 @@
         "id":1,
         "title":"pixelcog simple parallax",
         "link":"https://pixelcog.github.io/parallax.js/",
-        "folder":"pixelcog"
+        "folder":"pixelcog",
+        "useJquery": true
     },
     {
         "id":2,
         "title":"simpleParallax",
         "link":"https://simpleparallax.com/",
-        "folder":"simpleParallax"
+        "folder":"simpleParallax",
+        "useJquery": false
     }
 ]

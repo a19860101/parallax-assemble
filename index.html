@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parallax Assemble</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Parallax Assemble</h1>
     <div class="container" id="app">
         <div class="box" v-for="data in datas">
-            <h3>{{data.title}}</h3>
+            <h2>{{data.title}}</h2>
+            <div v-if="data.useJquery" class="useJquery">jQuery</div>
+            <div v-else class="useJquery">Vanilla Javascript</div>
             <a :href="data.folder" target="_blank">Link</a>
         </div>
     </div>
